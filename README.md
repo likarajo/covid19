@@ -36,3 +36,38 @@ Covid Tracking Projects: https://covidtracking.com
 
 ---
 
+## Report
+
+### 03-25-2020
+
+#### China: Cumulative cases by provinces over time, starting 10-Feb-2020
+
+![](reports/03-25-2020/cn_cum.png)
+
+The curve appears to be flattening, which is good.
+
+#### China: New cases by provinces over time, starting 10-Feb-2020
+
+![](reports/03-25-2020/cn_new.png)
+
+Very few or no new cases, which is good.
+
+#### Hubei, China: New cases over time, starting 10-Feb-2020
+
+![](reports/03-25-2020/cn_new_hubei.png)
+
+Three major spikes followed by a consistent drop, which is good.
+
+#### USA: Cumulative cases over time, starting 10-Mar-2020
+
+![](reports/03-25-2020/us_cum.png)
+
+The curve exponentially increasing, which is concerning.
+
+#### USA: New cases over time, starting 10-Mar-2020
+
+![](reports/03-25-2020/us_new.png)
+
+![](reports/03-25-2020/us_new2.png)
+
+The curve increasing, but slower which is still concerning, with a glimmer of hope.
