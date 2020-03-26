@@ -1,10 +1,14 @@
 # Analyzing COVID19 (Novel Coronavirus) data
 
+Viewing data graphically to understand the impact of the Novel Coronavirus country-wise over time and get the big picture with information involving the number of new confirmed cases, deaths and the % increase in the value.
+
 ## Background
 
-**Coronavirus disease 2019 (COVID-19)** is an infectious disease caused by **severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)**. 
+**Coronavirus disease 2019 (COVID-19)** is an infectious disease caused by **severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)**.<br>
 The disease was first identified in 2019 in Wuhan, the capital of Hubei, China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic.
 As the COVID-19 has huge potential implications, this project gives a preliminary platform to dive into the available data and gain insights.
+
+---
 
 ## Data
 
@@ -18,8 +22,7 @@ John Hopkins University CSSE [Novel Coronavirus (COVID-19) Cases data](https://s
 
 Covid Tracking Projects: https://covidtracking.com
 
-### Keywords
-
+Keywords
 ```
 #COVID19
 #covid19
@@ -30,10 +33,51 @@ Covid Tracking Projects: https://covidtracking.com
 #coronavirusnewyork
 #coronaviruscalifornia
 ```
+---
+
+## Requirements
+
+* *PySimpleGUI*: for GUI
+* *geopy*: to run the distance widget (from the PSG-Widgets repository)
+
+```bash
+pip3 install -r requirements.txt
+```
+
+* *PySimpleGUI-exemaker*: (Optional) to make executable GUI using *pyinstaller*.[Reference](https://github.com/PySimpleGUI/PySimpleGUI/tree/master/exemaker)
 
 ---
 
-## Report
+## Configuration and Graphs
+
+* settings
+  * confirmed cases or deaths
+  * autoscaled or absolute value
+  * number of days to display
+
+![settings](img/settings.png)
+
+* locations
+  * country list
+  * *NOTE*: no, of countries must be equal to no. of graphs
+
+![settings](img/settings.png)
+
+Saved in ***app.cfg***
+
+* graphs
+  * bar plot of number cases
+  * day-wise, max upto 63 previous days
+  * country/region wise
+  * shows change in percentage
+
+![graphs](img/graphs.png)
+
+---
+
+## Sample Report based on preliminary analysis
+
+[coronavirus_timeseries.R](src/coronavirus_timeseries.R)
 
 ### 03-25-2020
 
@@ -64,3 +108,18 @@ The curve increasing, but slower which is still concerning, with a glimmer of ho
 
 ![](reports/03-25-2020/us_new2.png)
 
+---
+
+## More information
+
+[WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
+
+[Download daily PDF files](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports) that have the "Situation Report" for the most up to date information.
+
+---
+
+## Credits
+
+PySimpleGUI.com
+
+GUI tool based on the [PySimpleGUI-COVID19](https://github.com/PySimpleGUI/PySimpleGUI-COVID19) project.
