@@ -1,4 +1,4 @@
-# Analyzing COVID19 (Novel Coronavirus) data
+# Analyzing COVID19 (Novel Coronavirus-2) data
 
 Viewing data graphically to understand the impact of the Novel Coronavirus country-wise over time and get the big picture with information involving the number of new confirmed cases, deaths and the % increase in the value.
 
@@ -48,30 +48,39 @@ pip3 install -r requirements.txt
 
 ---
 
+## Run
+
+```bash
+python3 coronavirus.py
+```
+
+If prompted, select settings and locations
+
+---
+
 ## Configuration and Graphs
 
-* settings
+* **graphs**: Each graph displays a header that shows the country name, the number of new cases/deaths in the last data point and the % increase this value represents.
+  * bar plot of number cases
+  * day-wise, max upto 63 previous days
+  * country/region wise
+
+![graphs](img/graphs.png)
+
+* **settings**
   * confirmed cases or deaths
   * autoscaled or absolute value
   * number of days to display
 
 ![settings](img/settings.png)
 
-* locations
+* **locations**
   * country list
   * *NOTE*: no, of countries must be equal to no. of graphs
 
-![settings](img/settings.png)
+![locations](img/locations.png)
 
 Saved in ***app.cfg***
-
-* graphs
-  * bar plot of number cases
-  * day-wise, max upto 63 previous days
-  * country/region wise
-  * shows change in percentage
-
-![graphs](img/graphs.png)
 
 ---
 
@@ -120,6 +129,9 @@ The curve increasing, but slower which is still concerning, with a glimmer of ho
 
 ## Credits
 
-PySimpleGUI.com
+[PySimpleGUI.com](https://github.com/PySimpleGUI/PySimpleGUI)
 
 GUI tool based on the [PySimpleGUI-COVID19](https://github.com/PySimpleGUI/PySimpleGUI-COVID19) project.
+
+Modifications and enhancements have been made to cater to the requirements of my project goals.
+
