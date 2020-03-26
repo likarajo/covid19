@@ -1,5 +1,7 @@
 # Analyzing COVID19 (Novel Coronavirus-2) data
 
+![](img/graphs.png)
+
 Viewing data graphically to understand the impact of the Novel Coronavirus country-wise over time and get the big picture with information involving the number of new confirmed cases, deaths and the % increase in the value.
 
 ## Background
