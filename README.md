@@ -1,6 +1,4 @@
-# COVID-19
-
-Analysing COVID19 (Novel Coronavirus) data
+# Analysing COVID19 (Novel Coronavirus) data
 
 ## Background
 
