@@ -35,6 +35,9 @@ Keywords
 #coronavirusnewyork
 #coronaviruscalifornia
 ```
+
+More sources: https://www.linkedin.com/pulse/covid-19-data-sources-rajarshi-chattopadhyay/
+
 ---
 
 ## Requirements
