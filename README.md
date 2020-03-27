@@ -56,7 +56,7 @@ pip3 install -r requirements.txt
 ## Run
 
 ```bash
-python3 coronavirus.py
+python3 app.py
 ```
 
 If prompted, select settings and locations
