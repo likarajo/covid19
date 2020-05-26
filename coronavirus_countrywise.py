@@ -344,6 +344,7 @@ def create_window(settings):
                  sg.T(' '*20),
                  sg.T(size=(40,2), font='Any 8', key='-UPDATED-'),
                  sg.T(r'Data source: Johns Hopkins - https://github.com/CSSEGISandData/COVID-19'+'\nCreated using PySimpleGUI', size=(None, 2), enable_events=True, font='Any 8', key='-SOURCE LINK-'),
+                 sg.T(r'By: Rajarshi Chattopadhyay - https://github.com/likarajo', size=(None, 2), font='Any 8'),
                 ]]
 
     window = sg.Window('COVID-19 Confirmed Cases', layout, grab_anywhere=False, no_titlebar=False, margins=(0,0),  finalize=True)
